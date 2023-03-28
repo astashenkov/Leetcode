@@ -10,7 +10,7 @@ You can return the answer in any order.
 
 
 class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
+    def two_sum(self, nums: List[int], target: int) -> List[int]:
         storage = {}
         for index, elment in enumerate(nums):
             if target - elment in storage:

@@ -6,7 +6,7 @@ and return false if every element is distinct.
 
 
 class Solution:
-    def containsDuplicate(self, nums: List[int]) -> bool:
+    def contains_duplicate(self, nums: List[int]) -> bool:
         unique = set()
         for item in nums:
             if item in unique:
